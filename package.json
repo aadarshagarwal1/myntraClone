@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "[PROJECT_URL]",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "bootstrap": "^5.3.3",
