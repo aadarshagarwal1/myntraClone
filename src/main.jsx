@@ -9,19 +9,19 @@ import store from "./store/index.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/myntraClone",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/myntraClone",
         element: <Home />,
       },
       {
-        path: "/home",
+        path: "/myntraClone/home",
         element: <Home />,
       },
       {
-        path: "/bag",
+        path: "/myntraClone/bag",
         element: <Bag />,
       },
     ],

@@ -11,7 +11,7 @@ export default function header() {
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
             <div className="flex-centered me-lg-auto">
               <Link
-                to="/home"
+                to="/myntraClone/home"
                 className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
               >
                 <img
@@ -168,7 +168,7 @@ export default function header() {
                   </label>
                 </div>
                 <div className="header-options-container">
-                  <Link to="/bag" id="bag">
+                  <Link to="/myntraClone/bag" id="bag">
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
