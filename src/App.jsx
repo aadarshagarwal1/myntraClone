@@ -16,7 +16,6 @@ export default function app() {
       fetch("https://myntra-clone-backend-rho.vercel.app/")
         .then((res) => res.json())
         .then((obj) => {
-          console.log(obj);
           dispatch(itemsSliceActions.addInitialItem(obj));
           dispatch(fetchStatusActions.checkFetchDone());
         });
