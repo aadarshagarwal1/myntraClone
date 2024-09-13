@@ -7,7 +7,9 @@ export default function bag() {
   const [bagItems, setBagItems] = useState([]);
   useEffect(() => {
     async function fetchBagItems() {
-      const response = await fetch("http://localhost:8080/items");
+      const response = await fetch(
+        "https://myntra-clone-backend-rho.vercel.app/"
+      );
       const obj = await response.json();
       setBagItems(obj.items.filter((item) => bagItemsList.includes(item.id)));
     }
