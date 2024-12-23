@@ -1,8 +1,9 @@
-# React + Vite
+A ReactJS based frontend clone to the ecommerce website, Myntra with product display section, bag section and funtionality of adding and removing item to and from the bag with the help of state management in React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website also has ExpressJS backend hosted on Vercel. The backend handling comprises of efficient fetch request along with loading state handling.
 
-Currently, two official plugins are available:
+The website showcases use of functional UI/UX to display the products and prominent buttons to foster usability of the website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live link : https://aadarshagarwal1.github.io/experiences/
+
+Thanks for visiting.
