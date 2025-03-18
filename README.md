@@ -4,6 +4,6 @@ The website also has ExpressJS backend hosted on Vercel. The backend handling co
 
 The website showcases use of functional UI/UX to display the products and prominent buttons to foster usability of the website.
 
-Live link : https://aadarshagarwal1.github.io/experiences/
+Live link : https://aadarshagarwal1.github.io/myntraClone
 
 Thanks for visiting.
